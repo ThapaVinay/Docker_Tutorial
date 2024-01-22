@@ -17,7 +17,12 @@
     - docker build -t inotebook . : to build the image from docker file
     - docker login : to login to the docker hub
     - docker push <image-name> : to push to the docker hub
-    - 
+
+# docker compose   
+    it is used to setup, create and destroy multiple containers.
+    - docker compose up : all the configuration and services defined in .yml file will be up and running
+    - docker compose up -d : to run it in background or detached mode
+
 
 
 
